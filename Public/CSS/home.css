@@ -1,0 +1,115 @@
+body{
+    position: relative;
+}
+h2{
+	margin: 0px;
+    color: black;
+}
+div.home{
+  position: absolute;
+	align-content: center;
+	width: a;
+	top :20px;
+	left:30px;
+	margin-left: -200px;
+
+}
+div#user{
+  position: absolute;
+  left: 600px;
+  margin-left: 0px;
+  top:10px;
+  color: white;
+    opacity: 0.8;
+}
+div.card{
+  border-radius: 10px;
+  background-color: skyblue;
+}
+h5.card-title{
+   color: white;
+}
+div#freelancer{
+  position: absolute;
+  left: 600px;
+  margin-left: 0px;
+  top:230px;
+   color: white;
+     opacity: 0.8;
+}
+div#preuser{
+  position: absolute;
+  left: 600px;
+  margin-left: 0px;
+  top:430px;
+   color: white;
+     opacity: 0.8;
+}
+div#login{
+	position: absolute;
+	top:500px;
+	left:500px;
+	size: 400px;
+	background-color: white;
+	font-family: @font-family-base, @font-size-base;
+	font-style: inherit;
+}
+div.card{
+	position: absolute;
+	left: 300px;
+	width: 400px;
+}
+html {
+  height:0%;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+.content {
+  background-color:rgba(255,255,255,.8);
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(0,0,0,.25);
+  box-sizing:border-box;
+  left:50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
